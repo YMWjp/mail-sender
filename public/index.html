@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mail Sender</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Mail Sender</h1>
+      <form id="mailForm">
+        <div>
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" required />
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" required></textarea>
+        </div>
+        <button type="submit">Send Mails</button>
+      </form>
+      <p id="status"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
